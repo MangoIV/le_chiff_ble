@@ -1,0 +1,21 @@
+[submodule "kicad/kbd"]
+	path = kicad/kbd
+	url = https://github.com/foostan/kbd.git
+[submodule "kicad/Keebio-Parts.pretty"]
+	path = kicad/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty.git
+[submodule "kicad/random-keyboard-parts.pretty"]
+	path = kicad/random-keyboard-parts.pretty
+	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
+[submodule "kicad/TP4056-18650"]
+	path = kicad/TP4056-18650
+	url = https://github.com/ccadic/TP4056-18650.git
+[submodule "kicad/misc_footprints"]
+	path = kicad/misc_footprints
+	url = https://github.com/kubabuda/misc_footprints.git
+[submodule "kicad/tp4056"]
+	path = kicad/tp4056
+	url = https://github.com/alltheworld/tp4056.git
+[submodule "kicad/keebio-components"]
+	path = kicad/keebio-components
+	url = https://github.com/keebio/keebio-components.git

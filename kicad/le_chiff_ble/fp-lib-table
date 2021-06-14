@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name Keebio-Parts)(type KiCad)(uri /home/mangoiv/Devel/keyboards/le_chiff_ble/kicad/Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name kicad-keyboard-parts)(type KiCad)(uri /home/mangoiv/Devel/keyboards/le_chiff_ble/kicad/kicad-keyboard-parts.pretty)(options "")(descr ""))
+  (lib (name ms88sf2_oreore)(type KiCad)(uri /home/mangoiv/Devel/keyboards/le_chiff_ble/kicad/ms88sf2_oreore.pretty)(options "")(descr ""))
+  (lib (name other_parts)(type KiCad)(uri /home/mangoiv/Devel/keyboards/le_chiff_ble/kicad/other_parts.pretty)(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type KiCad)(uri /home/mangoiv/Devel/keyboards/le_chiff_ble/kicad/random-keyboard-parts.pretty)(options "")(descr ""))
+  (lib (name kbd)(type KiCad)(uri /home/mangoiv/Devel/keyboards/le_chiff_ble/kicad/kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
+  (lib (name lib)(type KiCad)(uri /home/mangoiv/Devel/keyboards/le_chiff_ble/kicad/tp4056/lib)(options "")(descr ""))
+  (lib (name graphics)(type KiCad)(uri /home/mangoiv/Devel/keyboards/le_chiff_ble/kicad/graphics.pretty)(options "")(descr ""))
+)

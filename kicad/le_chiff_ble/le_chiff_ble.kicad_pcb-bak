@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 78)
+    (drawings 80)
     (tracks 1212)
     (zones 0)
     (modules 117)
@@ -6628,6 +6628,12 @@
     )
   )
 
+  (gr_text 2.718281828459045235360287471352662 (at 115.629425 62.193326 -10) (layer B.Mask) (tstamp 60CCF871)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text 3.141592653589793238462643383279502 (at 177.879425 62.693326 10) (layer B.Mask)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_text RESET (at 147.474663 91.943326) (layer B.SilkS) (tstamp 60CC7309)
     (effects (font (size 1 1) (thickness 0.25)) (justify left mirror))
   )
