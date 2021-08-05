@@ -3,11 +3,14 @@
 This is a drop-in replacement PCB for [tominabox1's](https://github.com/tominabox1) Le Chiffre keyboard, one of my all time favourite boards. I redesigned the existing PCB from top up and added bluetooth. 
 Please be so kind and check out the [original repo](https://github.com/tominabox1/Le-Chiffre-Keyboard) and leave a star. This is where you can also find case files for this PCB. 
 ## State of the project
+### implemented
 - charging circuit is working
 - MCU connects via bluetooth and USB
-- Bootloader as well as a ZMK firmware exist and will be added to the repo later
 - all features have been tested and are working, including OLED and Encoder
+### open tasks
 - PCB will get a polish soon, I'll remove unnecessary silkscreen
+- bootloader and zmk firmware need to be added to the repo, I'll do that when I transformed the zmk firmware from my zmk fork to building online which will be easier for the enduser. If you're impatient, find the zmk firmware on [my zmk fork](https://github.com/MangoIV/zmk)
+- the widgets in zmk for the OLED are still very basic, I'd like to do something to make them look better, this will be added after I finished and uploaded the firmware 
 ## How can I obtain one
 - Gerbers are supplied, be free to order them with the PCB manufacturer you want
 ### you will need parts: 
