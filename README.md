@@ -10,7 +10,7 @@ Please be so kind and check out the [original repo and leave a star](https://git
 - PCB will get a polish soon, I'll remove unnecessary silkscreen
 ## How can I obtain one
 - Gerbers are supplied, be free to order them with the PCB manufacturer you want
-- you will need parts: 
+### you will need parts: 
 1. Resistors, footprint is 0805: 
   - 1x 2M
   - 1x 1M
@@ -38,7 +38,17 @@ Please be so kind and check out the [original repo and leave a star](https://git
 9. 1x battery protection IC DW01A, footprint is sot-23-6
 10. 1x two nmos with gates connects FS8205, footprint is sot-23-6
 11. 1x Minew MS88SF2, be careful to choose the version with nrF52840, there's also another version with the same name which won't work
-12. 1x MSK-12C02 smd toggle switch
-13. 1x SW SPST TL3342 push switch for reset
-14. 34-35 MX/alps/choc switches depending on whether you use the encoder or not
-15. 15. optional: 1x Encoder, 1x 128x32 OLED
+12. 1x USB type c port, 12 pin
+13. 1x MSK-12C02 smd toggle switch
+14. 1x SW SPST TL3342 push switch for reset
+15. 34-35 MX/alps/choc switches depending on whether you use the encoder or not
+16. Battery connector with 1.25mm pitch, choose whichever you're fine with
+17. optional: 1x Encoder, 1x 128x32 OLED
+## How do I build one? 
+- solder all components
+- flash bootloader (I liked [this one](https://github.com/adafruit/Adafruit_nRF52_Bootloader) a lot, it's fairly easy to modify to your needs, my fork will be supplied soon)
+- plug into PC and test whether everything is working, flash Firmware 
+- plug in battery, plug in PC again to unlock DW01A (this needs to be done everytime you physically disconnect the PCB from the battery)
+- be careful to adjust resistor value of the tp4056 when you take different battery sizes, I chose 1Ah which works fine with the specified resistor values
+- verify charging and bluetooth works 
+- continue building as this was a normal chiffre
