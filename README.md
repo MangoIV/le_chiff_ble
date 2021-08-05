@@ -11,7 +11,7 @@ Please be so kind and check out the [original repo and leave a star](https://git
 ## How can I obtain one
 - Gerbers are supplied, be free to order them with the PCB manufacturer you want
 ### you will need parts: 
-1. Resistors, footprint is 0805: 
+1. **Resistors, footprint is 0805: **
   - 1x 2M
   - 1x 1M
   - 1x 806k
@@ -21,12 +21,12 @@ Please be so kind and check out the [original repo and leave a star](https://git
   - 3x 1k
   - 2x 100
   - 1x 2.1
-2. Capacitors, footprint is 0805
+2. **Capacitors, footprint is 0805**
   - 4x 10uF
   - 2x 1uF
   - 2x 0.1uF
   - 1x 1nF
-3. Diodes
+3. **Diodes**
   - 35x SOD123 for the switches and encoder
   - 1x Schottky, SOD323, should be low voltage drop
   - either 2x in switch LEDs or 2x 0805 SMD LEDs for the charging indicator
