@@ -11,7 +11,7 @@ Please be so kind and check out the [original repo and leave a star](https://git
 ## How can I obtain one
 - Gerbers are supplied, be free to order them with the PCB manufacturer you want
 ### you will need parts: 
-1. **Resistors, footprint is 0805: **
+1. **Resistors, footprint is 0805:**
   - 1x 2M
   - 1x 1M
   - 1x 806k
