@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MINEW_MS88SF2:MS88SF2 U2
+L le_chiff_ble-rescue:MS88SF2-MINEW_MS88SF2 U2
 U 1 1 60C5FFDB
 P 2450 2150
 F 0 "U2" H 2425 3067 50  0000 C CNN
@@ -433,7 +433,7 @@ $EndComp
 Wire Wire Line
 	10200 1100 10600 1100
 $Comp
-L kicad-keyboard-parts:DW01A U4
+L le_chiff_ble-rescue:DW01A-kicad-keyboard-parts U4
 U 1 1 60D64A0D
 P 3700 5300
 F 0 "U4" H 3700 5815 50  0000 C CNN
@@ -445,7 +445,7 @@ F 4 "C61503" H 3700 5633 50  0000 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L kicad-keyboard-parts:FS8205 U5
+L le_chiff_ble-rescue:FS8205-kicad-keyboard-parts U5
 U 1 1 60D6A758
 P 3700 5950
 F 0 "U5" V 3791 5772 50  0000 R CNN
@@ -557,7 +557,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 5350 4400 5350
 $Comp
-L kicad-keyboard-parts:XC6206PxxxMR-Regulator_Linear U3
+L le_chiff_ble-rescue:XC6206PxxxMR-Regulator_Linear-kicad-keyboard-parts U3
 U 1 1 60D92CBC
 P 3200 7250
 F 0 "U3" H 3200 7583 50  0000 C CNN
@@ -692,7 +692,7 @@ Wire Notes Line
 Text Notes 9250 550  0    50   ~ 0
 connector to flash the bootloader
 $Comp
-L kbd:OLED OL1
+L le_chiff_ble-rescue:OLED-kbd OL1
 U 1 1 60ECBCE6
 P 10350 2100
 F 0 "OL1" H 10978 2169 51  0000 L CNN
@@ -785,7 +785,7 @@ keyboard matrix
 Text GLabel 5550 3700 1    50   Input ~ 0
 col0
 $Comp
-L kicad-keyboard-parts:MX_LED MX1
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX1
 U 1 1 60F59542
 P 5400 3950
 F 0 "MX1" H 5433 4117 50  0000 C CNN
@@ -807,7 +807,7 @@ F 3 "~" V 5350 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX2
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX2
 U 1 1 60F636D1
 P 5400 4650
 F 0 "MX2" H 5433 4817 50  0000 C CNN
@@ -829,7 +829,7 @@ F 3 "~" V 5350 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX3
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX3
 U 1 1 60F69877
 P 5400 5300
 F 0 "MX3" H 5433 5467 50  0000 C CNN
@@ -851,7 +851,7 @@ F 3 "~" V 5350 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX4
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX4
 U 1 1 60F6FD2C
 P 5850 3950
 F 0 "MX4" H 5883 4117 50  0000 C CNN
@@ -873,7 +873,7 @@ F 3 "~" V 5800 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX5
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX5
 U 1 1 60F6FD38
 P 5850 4650
 F 0 "MX5" H 5883 4817 50  0000 C CNN
@@ -895,7 +895,7 @@ F 3 "~" V 5800 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX6
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX6
 U 1 1 60F6FD44
 P 5850 5300
 F 0 "MX6" H 5883 5467 50  0000 C CNN
@@ -917,7 +917,7 @@ F 3 "~" V 5800 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX7
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX7
 U 1 1 60F78131
 P 6300 3950
 F 0 "MX7" H 6333 4117 50  0000 C CNN
@@ -939,7 +939,7 @@ F 3 "~" V 6250 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX8
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX8
 U 1 1 60F7813D
 P 6300 4650
 F 0 "MX8" H 6333 4817 50  0000 C CNN
@@ -961,7 +961,7 @@ F 3 "~" V 6250 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX9
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX9
 U 1 1 60F78149
 P 6300 5300
 F 0 "MX9" H 6333 5467 50  0000 C CNN
@@ -983,7 +983,7 @@ F 3 "~" V 6250 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX10
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX10
 U 1 1 60F78155
 P 6750 3950
 F 0 "MX10" H 6783 4117 50  0000 C CNN
@@ -1005,7 +1005,7 @@ F 3 "~" V 6700 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX11
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX11
 U 1 1 60F78161
 P 6750 4650
 F 0 "MX11" H 6783 4817 50  0000 C CNN
@@ -1027,7 +1027,7 @@ F 3 "~" V 6700 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX12
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX12
 U 1 1 60F7816D
 P 6750 5300
 F 0 "MX12" H 6783 5467 50  0000 C CNN
@@ -1049,7 +1049,7 @@ F 3 "~" V 6700 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX14
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX14
 U 1 1 60F862AC
 P 7200 3950
 F 0 "MX14" H 7233 4117 50  0000 C CNN
@@ -1071,7 +1071,7 @@ F 3 "~" V 7150 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX15
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX15
 U 1 1 60F862B8
 P 7200 4650
 F 0 "MX15" H 7233 4817 50  0000 C CNN
@@ -1093,7 +1093,7 @@ F 3 "~" V 7150 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX16
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX16
 U 1 1 60F862C4
 P 7200 5300
 F 0 "MX16" H 7233 5467 50  0000 C CNN
@@ -1115,7 +1115,7 @@ F 3 "~" V 7150 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX18
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX18
 U 1 1 60F862D0
 P 7650 3950
 F 0 "MX18" H 7683 4117 50  0000 C CNN
@@ -1137,7 +1137,7 @@ F 3 "~" V 7600 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX19
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX19
 U 1 1 60F862DC
 P 7650 4650
 F 0 "MX19" H 7683 4817 50  0000 C CNN
@@ -1159,7 +1159,7 @@ F 3 "~" V 7600 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX20
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX20
 U 1 1 60F862E8
 P 7650 5300
 F 0 "MX20" H 7683 5467 50  0000 C CNN
@@ -1181,7 +1181,7 @@ F 3 "~" V 7600 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX22
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX22
 U 1 1 60F862F4
 P 8100 3950
 F 0 "MX22" H 8133 4117 50  0000 C CNN
@@ -1203,7 +1203,7 @@ F 3 "~" V 8050 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX23
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX23
 U 1 1 60F86300
 P 8100 4650
 F 0 "MX23" H 8133 4817 50  0000 C CNN
@@ -1225,7 +1225,7 @@ F 3 "~" V 8050 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX24
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX24
 U 1 1 60F8630C
 P 8100 5300
 F 0 "MX24" H 8133 5467 50  0000 C CNN
@@ -1247,7 +1247,7 @@ F 3 "~" V 8050 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX26
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX26
 U 1 1 60F86318
 P 8550 3950
 F 0 "MX26" H 8583 4117 50  0000 C CNN
@@ -1269,7 +1269,7 @@ F 3 "~" V 8500 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX27
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX27
 U 1 1 60F86324
 P 8550 4650
 F 0 "MX27" H 8583 4817 50  0000 C CNN
@@ -1291,7 +1291,7 @@ F 3 "~" V 8500 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX28
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX28
 U 1 1 60F86330
 P 8550 5300
 F 0 "MX28" H 8583 5467 50  0000 C CNN
@@ -1313,7 +1313,7 @@ F 3 "~" V 8500 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX29
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX29
 U 1 1 60F94005
 P 9000 3950
 F 0 "MX29" H 9033 4117 50  0000 C CNN
@@ -1335,7 +1335,7 @@ F 3 "~" V 8950 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX30
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX30
 U 1 1 60F94011
 P 9000 4650
 F 0 "MX30" H 9033 4817 50  0000 C CNN
@@ -1357,7 +1357,7 @@ F 3 "~" V 8950 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX31
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX31
 U 1 1 60F9401D
 P 9000 5300
 F 0 "MX31" H 9033 5467 50  0000 C CNN
@@ -1379,7 +1379,7 @@ F 3 "~" V 8950 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX32
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX32
 U 1 1 60F94029
 P 9450 3950
 F 0 "MX32" H 9483 4117 50  0000 C CNN
@@ -1401,7 +1401,7 @@ F 3 "~" V 9400 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX33
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX33
 U 1 1 60F94035
 P 9450 4650
 F 0 "MX33" H 9483 4817 50  0000 C CNN
@@ -1423,7 +1423,7 @@ F 3 "~" V 9400 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX34
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX34
 U 1 1 60F94041
 P 9450 5300
 F 0 "MX34" H 9483 5467 50  0000 C CNN
@@ -1445,7 +1445,7 @@ F 3 "~" V 9400 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX13
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX13
 U 1 1 60FAC210
 P 6750 5950
 F 0 "MX13" H 6783 6117 50  0000 C CNN
@@ -1467,7 +1467,7 @@ F 3 "~" V 6700 6250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX17
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX17
 U 1 1 60FAC21C
 P 7200 5950
 F 0 "MX17" H 7233 6117 50  0000 C CNN
@@ -1489,7 +1489,7 @@ F 3 "~" V 7150 6250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX21
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX21
 U 1 1 60FAC228
 P 7650 5950
 F 0 "MX21" H 7683 6117 50  0000 C CNN
@@ -1511,7 +1511,7 @@ F 3 "~" V 7600 6250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX25
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX25
 U 1 1 60FAC234
 P 8100 5950
 F 0 "MX25" H 8133 6117 50  0000 C CNN
@@ -1533,7 +1533,7 @@ F 3 "~" V 8050 6250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX35
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX35
 U 1 1 60FC6BAD
 P 10700 2850
 F 0 "MX35" H 10733 3017 50  0000 C CNN
@@ -1989,7 +1989,7 @@ swdio
 Text GLabel 3050 1700 2    50   Input ~ 0
 swclk
 $Comp
-L tp4056:TP4056 U1
+L le_chiff_ble-rescue:TP4056-tp4056 U1
 U 1 1 6147D430
 P 1850 6300
 F 0 "U1" H 1850 6837 60  0000 C CNN
@@ -2031,7 +2031,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 6450 1350 6450
 $Comp
-L keebio:HRO-TYPE-C-31-M-12 USB1
+L le_chiff_ble-rescue:HRO-TYPE-C-31-M-12-keebio USB1
 U 1 1 616F21A5
 P 8150 1800
 F 0 "USB1" H 7672 1702 60  0000 R CNN
@@ -2188,7 +2188,7 @@ Wire Wire Line
 Wire Wire Line
 	750  6350 750  6400
 $Comp
-L kicad-keyboard-parts:MX_LED MX21
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX21
 U 2 1 61D07AA6
 P 850 6250
 F 0 "MX21" H 978 6247 50  0000 L CNN
@@ -2206,7 +2206,7 @@ Connection ~ 1050 6400
 Wire Wire Line
 	1050 6400 1050 6450
 $Comp
-L kicad-keyboard-parts:MX_LED MX17
+L le_chiff_ble-rescue:MX_LED-kicad-keyboard-parts MX17
 U 2 1 61D1A873
 P 550 6250
 F 0 "MX17" H 678 6247 50  0000 L CNN
