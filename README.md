@@ -9,7 +9,7 @@ Some of the footprints are not taken from the standard kicad libraries, huge tha
 
 All graphics on my PCB are handdrawn and belong to noone but me. 
 
-**I do not take any respondibility for what you do with those files in any way. Neither do I guarantee they're working for whatever purpose you intend ot use them.**
+**I do not take any respondibility for what you do with the files supplied here in any way. Neither do I guarantee they're working for whatever purpose you intend ot use them.**
 
 ## State of the project
 ### implemented
