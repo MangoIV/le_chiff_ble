@@ -1,7 +1,7 @@
 # le_chiff_ble
 ## What is this? 
 This is a drop-in replacement PCB for [tominabox1's](https://github.com/tominabox1) Le Chiffre keyboard, one of my all time favourite boards. I redesigned the existing PCB from top up and added bluetooth. 
-Please be so kind and check out the [original repo and leave a star](https://github.com/tominabox1/Le-Chiffre-Keyboard). This is where you can also find case files for this PCB. 
+Please be so kind and check out the [original repo](https://github.com/tominabox1/Le-Chiffre-Keyboard) and leave a star. This is where you can also find case files for this PCB. 
 ## State of the project
 - charging circuit is working
 - MCU connects via bluetooth and USB
