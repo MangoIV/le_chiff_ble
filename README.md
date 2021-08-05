@@ -7,7 +7,10 @@ Please be so kind and check out the [original repo](https://github.com/tominabox
 
 Some of the footprints are not taken from the standard kicad libraries, huge thanks to [foostan](https://github.com/foostan) for making the awesome "kbd" library and to [ai03](https://ai03.com/) for their super nice footprint libraries, the minew symbol and footprints are by [oreore](https://github.com/ogatatsu).
 
-All graphics on my PCB are handdrawn. 
+All graphics on my PCB are handdrawn and belong to noone but me. 
+
+**I do not take any respondibility for what you do with those files in any way. Neither do I guarantee they're working for whatever purpose you intend ot use them.**
+
 ## State of the project
 ### implemented
 - charging circuit is working
