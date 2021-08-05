@@ -21,7 +21,7 @@ All graphics on my PCB are handdrawn and belong to noone but me.
 - bootloader and zmk firmware need to be added to the repo, I'll do that when I transformed the zmk firmware from my zmk fork to building online which will be easier for the enduser. If you're impatient, find the zmk firmware on [my zmk fork](https://github.com/MangoIV/zmk)
 - the widgets in zmk for the OLED are still very basic, I'd like to do something to make them look better, this will be added after I finished and uploaded the firmware 
 ## How can I obtain one
-- Gerbers are supplied, be free to order them with the PCB manufacturer you want
+- Gerbers are supplied, be free to order them from the PCB manufacturer you prefer.
 ### you will need parts: 
 1. **Resistors, footprint is 0805:**
   - 1x 2M
