@@ -51,4 +51,4 @@ Please be so kind and check out the [original repo](https://github.com/tominabox
 - plug in battery, plug in PC again to unlock DW01A (this needs to be done everytime you physically disconnect the PCB from the battery)
 - be careful to adjust resistor value of the tp4056 when you take different battery sizes, I chose 1Ah which works fine with the specified resistor values
 - verify charging and bluetooth works 
-- continue building as this was a normal chiffre
+- continue building as if this was a "normal" chiffre
