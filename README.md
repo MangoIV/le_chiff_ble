@@ -3,6 +3,8 @@
 This is a drop-in replacement PCB for [tominabox1's](https://github.com/tominabox1) Le Chiffre keyboard, one of my all time favourite boards. I redesigned the existing PCB from top up and added bluetooth. 
 Please be so kind and check out the [original repo](https://github.com/tominabox1/Le-Chiffre-Keyboard) and leave a star. This is where you can also find case files for this PCB. 
 Some of the footprints are not taken from the standard kicad libraries, huge thanks to [foostan](https://github.com/foostan) for making the awesome "kbd" library and to [ai03](https://ai03.com/) for their super nice footprint libraries, the minew symbol and footprints are by [oreore](https://github.com/ogatatsu).
+
+All graphics on my PCB are handdrawn. 
 ## State of the project
 ### implemented
 - charging circuit is working
