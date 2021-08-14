@@ -16,6 +16,7 @@ All graphics on my PCB are handdrawn and belong to noone but me.
 - charging circuit is working
 - MCU connects via bluetooth and USB
 - all features have been tested and are working, including OLED and Encoder
+- a working zmk firmware can be found [here](https://github.com/MangoIV/le_chiff_ble_config).
 ### open tasks
 - PCB will get a polish soon, I'll remove unnecessary silkscreen
 - bootloader and zmk firmware need to be added to the repo, I'll do that when I transformed the zmk firmware from my zmk fork to building online which will be easier for the enduser. If you're impatient, find the zmk firmware on [my zmk fork](https://github.com/MangoIV/zmk)
