@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MINEW_MS88SF2:MS88SF2 U2
-U 1 1 60C5FFDB
-P 2450 2150
-F 0 "U2" H 2425 3067 50  0000 C CNN
-F 1 "MS88SF2" H 2425 2976 50  0000 C CNN
-F 2 "ms88sf2_oreore:MINEW_MS88SF2" H 2450 2200 50  0001 C CNN
-F 3 "" H 2450 2200 50  0001 C CNN
-	1    2450 2150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R15
 U 1 1 60C6ACC1
 P 7850 1150
@@ -115,19 +104,6 @@ Wire Wire Line
 	5750 1700 5850 1700
 Text GLabel 4950 1700 0    50   Input ~ 0
 vbus
-$Comp
-L power:GND #PWR0105
-U 1 1 60C8E0D5
-P 1500 1500
-F 0 "#PWR0105" H 1500 1250 50  0001 C CNN
-F 1 "GND" H 1505 1327 50  0000 C CNN
-F 2 "" H 1500 1500 50  0001 C CNN
-F 3 "" H 1500 1500 50  0001 C CNN
-	1    1500 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 1500 1800 1500
 Text GLabel 3050 2600 2    50   Input ~ 0
 d+
 Text GLabel 3050 2700 2    50   Input ~ 0
@@ -269,19 +245,6 @@ F 3 "" H 1500 2800 50  0001 C CNN
 	1    1500 2800
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:GND #PWR0110
-U 1 1 60CBF5F2
-P 1500 2700
-F 0 "#PWR0110" H 1500 2450 50  0001 C CNN
-F 1 "GND" V 1505 2572 50  0000 R CNN
-F 2 "" H 1500 2700 50  0001 C CNN
-F 3 "" H 1500 2700 50  0001 C CNN
-	1    1500 2700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1500 2700 1800 2700
 Wire Wire Line
 	1500 2800 1650 2800
 $Comp
@@ -296,8 +259,6 @@ F 3 "~" H 1650 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1650 2800
-Wire Wire Line
-	1650 2800 1800 2800
 $Comp
 L power:GND #PWR0111
 U 1 1 60CC6BF6
@@ -342,8 +303,6 @@ F 3 "~" H 3550 2900 50  0001 C CNN
 	1    3550 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3050 2800 3200 2800
 Connection ~ 3200 2800
 Wire Wire Line
 	3200 2800 3550 2800
@@ -751,9 +710,9 @@ F 3 "~" H 9900 3410 50  0001 C CNN
 	1    9900 3150
 	1    0    0    -1  
 $EndComp
-Text GLabel 3050 1500 2    50   Input ~ 0
+Text GLabel 1800 2600 0    50   Input ~ 0
 encA
-Text GLabel 3050 1600 2    50   Input ~ 0
+Text GLabel 3050 2500 2    50   Input ~ 0
 encB
 Text GLabel 9600 3050 0    50   Input ~ 0
 encA
@@ -1299,7 +1258,7 @@ F 1 "MX_LED" H 8583 5400 20  0000 C CNN
 F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 8600 5400 50  0001 C CNN
 F 3 "" H 8600 5400 50  0001 C CNN
 	1    8550 5300
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D31
@@ -1447,19 +1406,41 @@ $EndComp
 $Comp
 L kicad-keyboard-parts:MX_LED MX13
 U 1 1 60FAC210
-P 6750 5950
-F 0 "MX13" H 6783 6117 50  0000 C CNN
-F 1 "MX_LED" H 6783 6050 20  0000 C CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6800 6050 50  0001 C CNN
-F 3 "" H 6800 6050 50  0001 C CNN
-	1    6750 5950
+P 6300 5950
+F 0 "MX13" H 6333 6117 50  0000 C CNN
+F 1 "MX_LED" H 6333 6050 20  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 6350 6050 50  0001 C CNN
+F 3 "" H 6350 6050 50  0001 C CNN
+	1    6300 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D16
 U 1 1 60FAC216
+P 6250 6250
+F 0 "D16" V 6296 6180 50  0000 R CNN
+F 1 "D_Small" V 6205 6180 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6250 6250 50  0001 C CNN
+F 3 "~" V 6250 6250 50  0001 C CNN
+	1    6250 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kicad-keyboard-parts:MX_LED MX17
+U 1 1 60FAC21C
+P 6750 5950
+F 0 "MX17" H 6783 6117 50  0000 C CNN
+F 1 "MX_LED" H 6783 6050 20  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-2U-StabFlip" H 6800 6050 50  0001 C CNN
+F 3 "" H 6800 6050 50  0001 C CNN
+	1    6750 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 60FAC222
 P 6700 6250
-F 0 "D16" V 6746 6180 50  0000 R CNN
+F 0 "D20" V 6746 6180 50  0000 R CNN
 F 1 "D_Small" V 6655 6180 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 6700 6250 50  0001 C CNN
 F 3 "~" V 6700 6250 50  0001 C CNN
@@ -1467,69 +1448,47 @@ F 3 "~" V 6700 6250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L kicad-keyboard-parts:MX_LED MX17
-U 1 1 60FAC21C
-P 7200 5950
-F 0 "MX17" H 7233 6117 50  0000 C CNN
-F 1 "MX_LED" H 7233 6050 20  0000 C CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-2U-StabFlip" H 7250 6050 50  0001 C CNN
-F 3 "" H 7250 6050 50  0001 C CNN
-	1    7200 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D20
-U 1 1 60FAC222
-P 7150 6250
-F 0 "D20" V 7196 6180 50  0000 R CNN
-F 1 "D_Small" V 7105 6180 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 7150 6250 50  0001 C CNN
-F 3 "~" V 7150 6250 50  0001 C CNN
-	1    7150 6250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L kicad-keyboard-parts:MX_LED MX21
 U 1 1 60FAC228
-P 7650 5950
-F 0 "MX21" H 7683 6117 50  0000 C CNN
-F 1 "MX_LED" H 7683 6050 20  0000 C CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-2U-StabFlip" H 7700 6050 50  0001 C CNN
-F 3 "" H 7700 6050 50  0001 C CNN
-	1    7650 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D24
-U 1 1 60FAC22E
-P 7600 6250
-F 0 "D24" V 7646 6180 50  0000 R CNN
-F 1 "D_Small" V 7555 6180 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 7600 6250 50  0001 C CNN
-F 3 "~" V 7600 6250 50  0001 C CNN
-	1    7600 6250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L kicad-keyboard-parts:MX_LED MX25
-U 1 1 60FAC234
 P 8100 5950
-F 0 "MX25" H 8133 6117 50  0000 C CNN
+F 0 "MX21" H 8133 6117 50  0000 C CNN
 F 1 "MX_LED" H 8133 6050 20  0000 C CNN
-F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 8150 6050 50  0001 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-2U-StabFlip" H 8150 6050 50  0001 C CNN
 F 3 "" H 8150 6050 50  0001 C CNN
 	1    8100 5950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D28
-U 1 1 60FAC23A
+L Device:D_Small D24
+U 1 1 60FAC22E
 P 8050 6250
-F 0 "D28" V 8096 6180 50  0000 R CNN
+F 0 "D24" V 8096 6180 50  0000 R CNN
 F 1 "D_Small" V 8005 6180 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 8050 6250 50  0001 C CNN
 F 3 "~" V 8050 6250 50  0001 C CNN
 	1    8050 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kicad-keyboard-parts:MX_LED MX25
+U 1 1 60FAC234
+P 8550 5950
+F 0 "MX25" H 8583 6117 50  0000 C CNN
+F 1 "MX_LED" H 8583 6050 20  0000 C CNN
+F 2 "Keebio-Parts:MX-Alps-Choc-1U-NoLED" H 8600 6050 50  0001 C CNN
+F 3 "" H 8600 6050 50  0001 C CNN
+	1    8550 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D28
+U 1 1 60FAC23A
+P 8500 6250
+F 0 "D28" V 8546 6180 50  0000 R CNN
+F 1 "D_Small" V 8455 6180 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 8500 6250 50  0001 C CNN
+F 3 "~" V 8500 6250 50  0001 C CNN
+	1    8500 6250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1578,8 +1537,6 @@ Text GLabel 9150 3700 1    50   Input ~ 0
 col8
 Text GLabel 9600 3700 1    50   Input ~ 0
 col9
-Text GLabel 10850 2750 1    50   Input ~ 0
-col2
 Wire Wire Line
 	10850 2750 10850 2850
 Text GLabel 5200 4350 0    50   Input ~ 0
@@ -1628,9 +1585,6 @@ Wire Wire Line
 Connection ~ 6900 4650
 Wire Wire Line
 	6900 4650 6900 5300
-Connection ~ 6900 5300
-Wire Wire Line
-	6900 5300 6900 5950
 Wire Wire Line
 	7350 3700 7350 3950
 Connection ~ 7350 3950
@@ -1639,9 +1593,8 @@ Wire Wire Line
 Connection ~ 7350 4650
 Wire Wire Line
 	7350 4650 7350 5300
-Connection ~ 7350 5300
 Wire Wire Line
-	7350 5300 7350 5950
+	6900 5300 6900 5950
 Wire Wire Line
 	7800 3700 7800 3950
 Connection ~ 7800 3950
@@ -1650,9 +1603,8 @@ Wire Wire Line
 Connection ~ 7800 4650
 Wire Wire Line
 	7800 4650 7800 5300
-Connection ~ 7800 5300
 Wire Wire Line
-	7800 5300 7800 5950
+	8250 5300 8250 5950
 Wire Wire Line
 	8250 3700 8250 3950
 Connection ~ 8250 3950
@@ -1661,9 +1613,6 @@ Wire Wire Line
 Connection ~ 8250 4650
 Wire Wire Line
 	8250 4650 8250 5300
-Connection ~ 8250 5300
-Wire Wire Line
-	8250 5300 8250 5950
 Wire Wire Line
 	8700 3700 8700 3950
 Connection ~ 8700 3950
@@ -1775,17 +1724,6 @@ Wire Wire Line
 Connection ~ 8950 5700
 Wire Wire Line
 	8950 5700 9400 5700
-Wire Wire Line
-	5200 6350 6700 6350
-Connection ~ 6700 6350
-Wire Wire Line
-	6700 6350 7150 6350
-Connection ~ 7150 6350
-Wire Wire Line
-	7150 6350 7600 6350
-Connection ~ 7600 6350
-Wire Wire Line
-	7600 6350 8050 6350
 Text GLabel 3450 2000 0    50   Input ~ 0
 sda
 Text GLabel 3450 2100 0    50   Input ~ 0
@@ -2155,34 +2093,24 @@ F 3 "" H 7900 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7900 2350 8050 2350
-Text GLabel 1800 2200 0    50   Input ~ 0
-row0
-Text GLabel 1800 2300 0    50   Input ~ 0
-row1
-Text GLabel 3050 2200 2    50   Input ~ 0
-row2
-Text GLabel 3050 1900 2    50   Input ~ 0
-row3
-Text GLabel 1800 2600 0    50   Input ~ 0
-col0
-Text GLabel 1800 2500 0    50   Input ~ 0
-col1
-Text GLabel 1800 2400 0    50   Input ~ 0
-col2
-Text GLabel 3050 2400 2    50   Input ~ 0
-col3
-Text GLabel 3050 2500 2    50   Input ~ 0
-col4
-Text GLabel 1800 2100 0    50   Input ~ 0
-col5
 Text GLabel 1800 1900 0    50   Input ~ 0
-col6
+row0
 Text GLabel 1800 1800 0    50   Input ~ 0
-col7
+row1
 Text GLabel 1800 1700 0    50   Input ~ 0
-col8
+row2
 Text GLabel 1800 1600 0    50   Input ~ 0
-col9
+row3
+Text GLabel 3050 1500 2    50   Input ~ 0
+col0
+Text GLabel 3050 1600 2    50   Input ~ 0
+col1
+Text GLabel 3050 1900 2    50   Input ~ 0
+col2
+Text GLabel 3050 2200 2    50   Input ~ 0
+col3
+Text GLabel 3050 2400 2    50   Input ~ 0
+col4
 Wire Wire Line
 	1050 6350 1050 6400
 Wire Wire Line
@@ -2224,4 +2152,76 @@ Wire Wire Line
 Connection ~ 750  6400
 Wire Wire Line
 	750  6400 750  6450
+Wire Wire Line
+	3050 2800 3200 2800
+Wire Wire Line
+	1650 2800 1800 2800
+Wire Wire Line
+	1500 2700 1800 2700
+Wire Wire Line
+	1500 1500 1800 1500
+$Comp
+L MINEW_MS88SF2:MS88SF2 U2
+U 1 1 60C5FFDB
+P 2450 2150
+F 0 "U2" H 2425 3067 50  0000 C CNN
+F 1 "MS88SF2" H 2425 2976 50  0000 C CNN
+F 2 "ms88sf2_oreore:MINEW_MS88SF2" H 2450 2200 50  0001 C CNN
+F 3 "" H 2450 2200 50  0001 C CNN
+	1    2450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 60C8E0D5
+P 1500 1500
+F 0 "#PWR0105" H 1500 1250 50  0001 C CNN
+F 1 "GND" H 1505 1327 50  0000 C CNN
+F 2 "" H 1500 1500 50  0001 C CNN
+F 3 "" H 1500 1500 50  0001 C CNN
+	1    1500 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 5300 8700 5950
+Connection ~ 8700 5300
+Wire Wire Line
+	6450 5300 6450 5950
+Connection ~ 6450 5300
+Wire Wire Line
+	5200 6350 6250 6350
+Connection ~ 6250 6350
+Wire Wire Line
+	6250 6350 6700 6350
+Connection ~ 8050 6350
+Wire Wire Line
+	8050 6350 8500 6350
+Connection ~ 8250 5300
+Connection ~ 6700 6350
+Connection ~ 6900 5300
+Wire Wire Line
+	6700 6350 8050 6350
+Text GLabel 10850 2750 1    50   Input ~ 0
+col5
+Text GLabel 1800 2300 0    50   Input ~ 0
+col7
+Text GLabel 1800 2200 0    50   Input ~ 0
+col8
+Text GLabel 1800 2100 0    50   Input ~ 0
+col9
+Text GLabel 1800 2400 0    50   Input ~ 0
+col6
+Text GLabel 1800 2500 0    50   Input ~ 0
+col5
+$Comp
+L power:GND #PWR0110
+U 1 1 60CBF5F2
+P 1500 2700
+F 0 "#PWR0110" H 1500 2450 50  0001 C CNN
+F 1 "GND" V 1505 2572 50  0000 R CNN
+F 2 "" H 1500 2700 50  0001 C CNN
+F 3 "" H 1500 2700 50  0001 C CNN
+	1    1500 2700
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
