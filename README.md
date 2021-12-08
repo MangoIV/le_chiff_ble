@@ -9,7 +9,7 @@ Some of the footprints are not taken from the standard kicad libraries, huge tha
 
 All graphics on my PCB are handdrawn and belong to noone but me. 
 
-**I do not take any respondibility for what you do with the files supplied here in any way. Neither do I guarantee they're working for whatever purpose you intend ot use them.**
+**I do not take any responsibility for what you do with the files supplied here in any way. Neither do I guarantee they're working for whatever purpose you intend ot use them.**
 
 ## State of the project
 ### implemented
@@ -19,7 +19,6 @@ All graphics on my PCB are handdrawn and belong to noone but me.
 - a working zmk firmware can be found [here](https://github.com/MangoIV/le_chiff_ble_config).
 ### open tasks
 - PCB will get a polish soon, I'll remove unnecessary silkscreen
-- bootloader and zmk firmware need to be added to the repo, I'll do that when I transformed the zmk firmware from my zmk fork to building online which will be easier for the enduser. If you're impatient, find the zmk firmware on [my zmk fork](https://github.com/MangoIV/zmk)
 - the widgets in zmk for the OLED are still very basic, I'd like to do something to make them look better, this will be added after I finished and uploaded the firmware 
 ## How can I obtain one
 - Gerbers are supplied, be free to order them from the PCB manufacturer you prefer.
@@ -59,8 +58,9 @@ All graphics on my PCB are handdrawn and belong to noone but me.
 17. optional: 1x Encoder, 1x 128x32 OLED
 ## How do I build one? 
 - solder all components
-- flash bootloader (I liked [this one](https://github.com/adafruit/Adafruit_nRF52_Bootloader) a lot, it's fairly easy to modify to your needs, my fork will be supplied soon)
+- flash bootloader (I liked [this one](https://github.com/adafruit/Adafruit_nRF52_Bootloader) a lot, it's fairly easy to modify to your needs, e.g. the name the board will appear with in bootloader mode)
 - plug into PC and test whether everything is working, flash Firmware 
+- the firmware can be forked from [here](https://github.com/MangoIV/le_chiff_ble_config), just adjust the `.keymap` file, push, let GitHub Actions build it for you, download, done
 - plug in battery, plug in PC again to unlock DW01A (this needs to be done everytime you physically disconnect the PCB from the battery)
 - be careful to adjust resistor value of the tp4056 when you take different battery sizes, I chose 1Ah which works fine with the specified resistor values
 - verify charging and bluetooth works 
