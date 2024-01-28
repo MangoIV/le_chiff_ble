@@ -1,13 +1,15 @@
 # le_chiff_ble
 ## What is this? 
-This is a drop-in replacement PCB for [tominabox1's](https://github.com/tominabox1) Le Chiffre keyboard, one of my all time favourite boards. 
-I redesigned the existing PCB from top up and added bluetooth. 
-
+This is a drop-in replacement PCB for [tominabox1's](https://github.com/tominabox1) Le Chiffre keyboard, one of my all time favourite boards. I redesigned the existing PCB from top up and added bluetooth. 
 Please be so kind and check out the [original repo](https://github.com/tominabox1/Le-Chiffre-Keyboard) and leave a star. This is where you can also find case files for this PCB. 
 
 Some of the footprints are not taken from the standard kicad libraries, huge thanks to [foostan](https://github.com/foostan) for making the awesome "kbd" library and to [ai03](https://ai03.com/) for their super nice footprint libraries, the minew symbol and footprints are by [oreore](https://github.com/ogatatsu).
 
-All graphics on my PCB are handdrawn and belong to noone but me. 
+All graphics on my PCB are hand drawn and belong to no-one but me. 
+
+There are two PCBs in this repo one
+- with hotswap, no silkscreen, see kicad/le_chiff_ble_hotswap
+- without hotswap, with silkscreen, see kicad/le_chiff_ble
 
 **I do not take any responsibility for what you do with the files supplied here in any way. Neither do I guarantee they're working for whatever purpose you intend ot use them.**
 
@@ -18,7 +20,6 @@ All graphics on my PCB are handdrawn and belong to noone but me.
 - all features have been tested and are working, including OLED and Encoder
 - a working zmk firmware can be found [here](https://github.com/MangoIV/le_chiff_ble_config).
 ### open tasks
-- PCB will get a polish soon, I'll remove unnecessary silkscreen
 - the widgets in zmk for the OLED are still very basic, I'd like to do something to make them look better, this will be added after I finished and uploaded the firmware 
 ## How can I obtain one
 - Gerbers are supplied, be free to order them from the PCB manufacturer you prefer.
